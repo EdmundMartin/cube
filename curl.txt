@@ -1,0 +1,5 @@
+curl -v --request POST --header 'Content-Type: application/json' --data @task.json localhost:8085/tasks
+
+curl -v --request DELETE 'localhost:8085/tasks/21b23589-5d2d-4731-b5c9-a97e9832d021'
+
+$ docker run -it --rm --name echo timboring/echo-server:latest
